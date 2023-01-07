@@ -1,0 +1,95 @@
+
+.leftItem a{
+    font-size: 23px;
+    color: black;
+    font-weight: 500;
+    padding-bottom: 0;
+    transition: all 0.5s;
+}
+
+
+.nav .nav-item::after{
+    content: "";
+    margin-left: 5px;
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #35a22c;
+    transition: all .5s;
+    
+}
+
+.nav .nav-item:hover::after{
+    width: 23%;
+}
+
+.nav .item3::after{
+    content: "";
+    margin-left: 15px;
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #35a22c;
+    transition: all .5s;
+}
+
+.nav .item3:hover::after{
+    width: 12%;
+}
+
+.nav .item3:hover a{
+    color: red;
+} 
+.nav .nav-item:hover a{
+    color:#35a22c;
+}
+
+
+.rightItem h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.rightItem .nav-item::after{
+    content: "";
+    margin-left: 215px;
+    width: 0;
+    height: 4px;
+    display: block;
+    background-color: orange;
+    transition: all .5s;
+    
+}
+
+.rightItem .nav-item:hover::after{
+    width: 40%;
+}
+
+.rightItem h1:hover{
+    color: rebeccapurple;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card .card-title{
+    font-size: 13px;
+    color: purple;
+} 
+
+.card button{
+    font-size: 16px;
+}
+
+.card .card-text{
+    margin-bottom: 20px;
+    background-color: orchid;
+    width: 45px;
+    font-size: 20px;
+    border-radius: 25%;
+}
+
